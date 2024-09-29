@@ -1,3 +1,6 @@
+# PostgresSpring
+I tried connecting postgress with springboot and tested the flow using CRUD with swagger
+
 Create postgres Db in docker 
 
 ~ docker run --name my-postgres-db -e POSTGRES_DB=mydb -e POSTGRES_USER=postgresatul -e POSTGRES_PASSWORD=atul -v pgdata:/var/lib/postgresql/data -p 5432:5432 -d postgres
@@ -20,5 +23,4 @@ inside bash - root@c7fbf8cb2e19:/var/lib/postgresql/data
 Interact with docker image as bash
 
 for Spring boot  added - spring-boot-starter-data-jpa, postgresql, lombok
-# PostgresSpring
-I tried connecting postgress with springboot and tested the flow using CRUD with swagger
+
