@@ -42,9 +42,9 @@ docker kill <container_id>
 ### 3. 🚦 Spring Boot Configuration
 Add the following dependencies to your pom.xml for Spring Boot:
 
-spring-boot-starter-data-jpa
-postgresql
-lombok
+#### spring-boot-starter-data-jpa
+#### postgresql
+#### lombok
 
 ### 4. ⚙️ Application Properties
 
@@ -59,13 +59,13 @@ spring.jpa.show-sql=true
 ```
 ### 5. 🏗️ Building and Running the Project
 
-# 1. Start the PostgreSQL container:
+#### 1. Start the PostgreSQL container:
 
 ```bash
 docker start my-postgres-db
 ```
 
-# 2. Run the Spring Boot application:
+#### 2. Run the Spring Boot application:
 
 ```bash
 mvn spring-boot:run
